@@ -1,6 +1,6 @@
 # Uzay Savaşı 2D
 
-**[▶ Oyna](https://hamikumbasae.github.io/uzay-savasi/)**
+**[▶ Oyna](https://claude.ai/artifact/GXjc7JFcHrf8eH5HSg49YQ)** · GitHub Pages açıksa: https://hamikumbasae.github.io/uzay-savasi/
 
 Hikâye modu, endless mod ve XP sistemiyle 2D uzay savaşı. Tarayıcıda oynanır; bilgisayarda da telefonda da çalışır, kurulum gerekmez.
 
@@ -24,3 +24,11 @@ Hikâye modu, endless mod ve XP sistemiyle 2D uzay savaşı. Tarayıcıda oynan�
 | Menüye dön | `ESC` | Ekrandaki düğmeler |
 
 İlerleme ve skorlar tarayıcıda saklanır.
+
+
+## İki sürüm
+
+- **Web sürümü** (`index.html`, `css/`, `js/`): tarayıcıda, bilgisayarda ve telefonda oynanır. Kurulum gerekmez. Telefonda parmakla sürükle, ateş otomatik; `II` duraklatır, `B` bomba atar. Kayıtlar tarayıcıda tutulur.
+- **Java sürümü** (`src/main/java/uzaysavasi/`, `pom.xml`): Java Swing masaüstü uygulaması. Çalıştırmak için: `mvn package` ve ardından `java -cp target/classes uzaysavasi.Main`. Kayıtlar `~/.uzay_savasi_2d` klasöründe tutulur.
+
+İki sürüm aynı oyun kurallarını kullanır. (Eski `uzay-savasi-2d` deposu bu depoyla birleştirildi.)
